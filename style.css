@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    margin-top: 10vh;
+    height: 40vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    background-color: white;
+    height: 80%;
+    padding: 10px;
+    border-radius: 6px;
+}
+.location_name{
+    font-size: 24px;
+    font-weight: bold;
+}
+.instruction{
+    font-size: 14px;
+    color: gray;
+}
+#text_area{
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.input_field{
+    width: 95%;
+    height: auto;
+    padding: 10px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+.input_field:focus{
+    border: 2px solid skyblue;
+    border-radius: 6px;
+}
+.cross_input{
+    color: skyblue;
+    height: 97%;
+    width: 15px;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    border:0;
+    margin-right: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+.result_container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    transition: 0.5s ease-in;
+}
+li{
+    list-style: none;
+}
+.location_info{
+    padding: 10px;
+    width: 80%;
+    height: auto;
+    position: relative;
+    border: 2px solid skyblue;
+    border-radius: 6px;
+}
+.result_cross{
+    position: absolute;
+    right: 0;
+    width: 20px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 3px;
+    margin-right: 10px;
+    background-color: white;
+    cursor: pointer;
+    
+}
+.invalid{
+    margin-top: 20px;
+    width: 80%;
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 6px;
+    position: relative;
+    color: red;
+}
